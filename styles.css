@@ -1,0 +1,151 @@
+* {
+    background-color: rgb(0, 0, 0);
+    background-image: url('https://www.bing.com/th/id/OGC.830d7af0f929003672059d654cf67dc8?pid=1.7&rurl=https%3a%2f%2fkajabi-storefronts-production.global.ssl.fastly.net%2fkajabi-storefronts-production%2fthemes%2f1015903%2fsettings_images%2f8SaFOfpQwOrjEbfBAQZV_ezgif.com-optimize.gif&ehk=t%2fUQII1ZBfnj%2fRwm89pVF%2f0noHs3kIksQw2yrjkFat4%3d');
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; /* Scales the image to cover the entire element */
+    background-attachment: fixed; /* Ensures the image stays in place as the user scrolls */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.nav-bar ul {
+    margin: 30px;
+    display: flex;
+    list-style: none;
+}
+.nav-bar ul li {
+    width: 40%;
+    margin: auto ;
+}
+/* Add this to target the links */
+.nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 34px;
+    font-weight: 700;
+    font-family: 'COPPERPLATE GOTHIC BOLD';
+    
+}
+.nav-bar ul li a:hover {
+    color: red;
+}
+
+figure img {
+    filter: grayscale(0%);
+}
+#about-me h1 {
+    color: white;
+    font-size: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+#about {
+    width: 70%;
+    margin: 1200px auto;
+   
+}
+#about-me p {
+    color: white;
+    font-size: 30px;
+    margin-top: 50px;
+}
+#skills h1 {
+    color: white;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+#skills h1:hover {
+    color: red;
+}
+#skills {
+    width: 80%;
+    margin: 550px auto;
+}
+
+#skills ul {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    gap: 10px;
+}
+#skills ul li {
+    flex: 0 0 calc(25% ); /* Each item takes 25% of width (4 per row), minus gap */
+    color: white;
+    display: flex; /* Aligns image and text within each li */
+    align-items: center;
+    overflow: hidden; 
+    margin-right: 60px;
+}
+#skills ul li img {
+    width: 80%; /* Fixed width for all images */
+    height: 150px; /* Fixed height for all images */
+    object-fit: contain; /* Ensures images fit within the box without distortion */
+    margin-right: 15px;
+    margin-top: 50px; /* Space between image and text */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+#skills ul li img:hover {
+    transform: scale(1.1);
+     /* Enlarges image on hover */
+}
+#contact {
+    width: 80%;
+    margin: 300px auto; /* Already centered horizontally with auto */
+    text-align: center; /* Centers all inline and text content */
+}
+
+#contact h2 {
+    color: white;
+    font-size: 50px;
+    margin-left: 0; /* Remove left margin to center it */
+}
+
+#contact form {
+    margin-top: 50px;
+    display: block;
+}
+
+.form-group input {
+    margin: 40px auto; /* Centers the input horizontally */
+    width: 25%;
+    height: 50px; 
+    border-radius: 10px;
+    border: 1px solid white;
+    display: block; /* Ensures it respects auto margins for centering */
+}
+
+.form-group textarea {
+    margin: 30px auto; /* Centers the textarea horizontally */
+    width: 25%;
+    height: 150px;
+    border-radius: 10px;
+    border: 1px solid white;
+    display: block; /* Ensures it respects auto margins for centering */
+}
+
+#message {
+    color: white;
+    font-size: 20px;
+    margin: 24px auto; /* Centers the message */
+    text-align: center;
+}
+
+#btn {
+    margin: 0 auto; /* Centers the button horizontally */
+    width: 15%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: rgb(55, 1, 1);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    display: block; /* Ensures it respects auto margins for centering */
+}
